@@ -1,3 +1,6 @@
+#ifndef FIXED_H
+#define FIXED_H
+
 #include <iostream>
 
 class Fixed {
@@ -13,3 +16,4 @@ public:
 	int getRawBits(void) const;
 	void setRawBits(int const raw);
 };
+#endif
